@@ -11,6 +11,7 @@ class WordGame extends Component {
     }
     handleSubmit=(e)=>{
         e.preventDefault();
+        console.log(this.state.value)
         const {first,value}=this.state
         if(value.length <= 1){
             return;

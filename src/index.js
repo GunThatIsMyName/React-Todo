@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App.jsx';
-import WordGame from './components/wordGames';
+import BaseBallHook from './components/baseballHooks';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <WordGame />
+    <BaseBallHook />
   </React.StrictMode>,
   document.getElementById('root')
 );

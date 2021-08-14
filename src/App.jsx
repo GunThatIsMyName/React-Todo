@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Gugu from "./components/Gugu";
+import WordGameHooks from "./components/wordHooks";
 
 
 class App extends React.Component{
@@ -36,7 +37,7 @@ class App extends React.Component{
   render(){
     return(
       <React.Fragment>
-        <Gugu first={this.state.first} second={this.state.second} onChange={this.handleNumber} onSubmit={this.handleSubmit} result={this.state.result} />
+        <WordGameHooks />
       </React.Fragment>
     )
   }
