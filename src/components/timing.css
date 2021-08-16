@@ -1,0 +1,27 @@
+body{
+    background-color: #b2b2b2;
+}
+
+#box{
+    width: 400px;
+    height: 250px;
+    color:white;
+    text-align: center;
+    background-color:black;
+}
+
+/* .waiting{
+    background-color: black;
+}
+.ready{
+    background-color: rosybrown;
+}
+.start{
+    background-color: orange;
+}
+.touch{
+    background-color: teal;
+}
+.card{
+    background-color: rgb(197, 23, 23);
+} */

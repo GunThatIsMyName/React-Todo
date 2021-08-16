@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import BaseBallHook from './components/baseballHooks';
+import LotteryHooks from './components/practice/lotteryHooks';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BaseBallHook />
+    <LotteryHooks />
   </React.StrictMode>,
   document.getElementById('root')
 );

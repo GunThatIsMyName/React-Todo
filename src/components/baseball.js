@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-
+import React, { PureComponent } from "react";
+import Try from "./try"
 const getNumber = () => {
   //랜덤숫자 4개 만들기
   const candidate = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -14,7 +14,7 @@ const getNumber = () => {
   return randomNumber;
 };
 
-class Baseball extends Component {
+class Baseball extends PureComponent {
   state = {
     result: "",
     value: "",
@@ -92,7 +92,7 @@ class Baseball extends Component {
         </form>
         <div>시도 : {tries.length}</div>
         <ul>
-            {tries.map(item=><li>{item.try} - {item.result}</li>)}
+            {tries.map(item=><Try try={item.try} result={item.result} />}
         </ul>
       </>
     );
